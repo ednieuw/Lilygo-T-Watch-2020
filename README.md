@@ -21,7 +21,7 @@ https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/82f1b46f-4dc8-43d3-
 
 
 
-Below does not work in november 2023
+ ** Below does not work in november 2023 **
 
 ## News:
 - Currently `T-Watch-Lib` is only compatible with `T-Watch S3` version, esp32 version is planned to support
@@ -99,7 +99,8 @@ Please follow the steps below
    3. Open Windows Device Manager
    4. Press and hold the crown of the watch until the USB device does not appear in the Windows COM port
    5. Press the button in the picture below and keep pressing
-    ![](./images/BUTTON.jpg)
+![image](https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/dd244d32-bac4-4052-b45b-571f5e504322)
+
    6. Press the crown button for one second
    7. Now the COM port is fixed
    8. Select Port in Arduino IDE
