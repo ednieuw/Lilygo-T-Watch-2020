@@ -1,12 +1,15 @@
 # Lilygo-WristWatch
-This software is derived from the [ILI9341 + ESP32-C3 clock]( https://github.com/ednieuw/ESP32-C3-Clock-and-more) seen in the background
-I used the installation as described below: Arduino IDE Relative easy Quick Start.
-When the watch was working as intended in Version V009 the installation as described at ## 2️⃣ Arduino IDE Quick Start" was tested.
-Until now I failed to get it working. You have to add many libraries to the 'libraries folder' and messing with defines in the TFT_eSPI library User setup header files. 
-This is hard to maintain when working with other displays. Not to mention when returning to the coding after a year for an update.
-These changes should reside with the INO files in the INO folder.
+This software is derived from the [ILI9341 + ESP32-C3 clock]( https://github.com/ednieuw/ESP32-C3-Clock-and-more) seen in the background.
 
- 
+I used the installation as described below: Arduino IDE Relative easy Quick Start. 
+The watch is working as intended in Version V009
+
+Using the installation as described at ## 2️⃣ Arduino IDE Quick Start" failed so far.
+You have to add many libraries to the 'libraries folder' and messing with defines in the TFT_eSPI library User setup header files. 
+This is hard to maintain when working with other displays. Not to mention when returning to the coding after a year for an update.
+These changes is the header files should reside with the INO files in the INO folder.
+V010 is almost with no errors anymore.  
+
 
 https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/82f1b46f-4dc8-43d3-bf7c-c0fba49e676e
 
