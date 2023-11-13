@@ -5,7 +5,17 @@ https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/82f1b46f-4dc8-43d3-
 
 <h1 align = "center">🌟LilyGO T-Watch🌟</h1>
 
+## 1️⃣ Arduino IDE Relative easy Quick Start
 
+1. Install [Arduino IDE](https://www.arduino.cc/en/software)
+2. Install `Arduino ESP32 2.0.9 or higher`. `Tools` -> `Board` -> `Boards Manager` and search ESP32
+    ** I used 2.0.14. **
+3. Install [TTGO_TWatch_Library](https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library)
+   1. Download a zipfile from github using the "Download ZIP" button and install it using the IDE ("Sketch" -> "Include Library" -> "Add .ZIP Library...")
+   2. Clone this git repository into your sketchbook/libraries folder. For more info, see https://www.arduino.cc/en/Guide/Libraries
+
+4. In the Arduino IDE Go to Tools -> Board --> ESP32  and search in the list 'TTGO T-watch'
+![image](https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/d0ffc660-1a1b-4799-8abd-a21b5881e2cd)
 
 
 
