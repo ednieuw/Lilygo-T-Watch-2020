@@ -26,12 +26,13 @@ This software is derived from the [ILI9341 + ESP32-C3 clock]( https://github.com
 I used the installation as described here below: Arduino IDE Relative easy Quick Start. 
 The watch is working as intended in Version V009
 
-Using the installation as described at ## 2️⃣ Arduino IDE Quick Start" failed so far.  
+Using the installation as described at ## 2️⃣ Arduino IDE Quick Start" failed so far Noc 2023.  
 
 
 https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/82f1b46f-4dc8-43d3-bf7c-c0fba49e676e
 
-<h1 align = "center">🌟LilyGO T-Watch🌟</h1>
+<h1 align = "center">🌟LilyGO T-Watch V2020 V3🌟</h1></br>
+<h3>From LilyGo Github the next instructions:</h3>
 
 ## 1️⃣ Arduino IDE Relative easy Quick Start
 
