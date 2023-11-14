@@ -1,4 +1,28 @@
 # Lilygo-WristWatch
+
+A wrist watch that displays the time in words in Dutch, English, French and 
+German or as an analogue or digital clock.<br />
+The clock receives time via NTP from the internet. <br />
+Settings can be controlled via a webpage, PC and Bluetooth LE.<br />
+Also info here: <a href="https://ednieuw.home.xs4all.nl/Woordklok/ESP32C3AndMore/ESP32C3ClockAndMoreV.html">  
+On my home page for the latest info</a>.	
+<p>The clock is built with a [LillyGo T-watch 2020 V3]( https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library) that runs on a 16 Mb ESP32-S3.</br>
+The software is written with the Arduino IDE 1.8.19.</br>
+The software contains coding to use:
+1 ILI9314 colour display</br>
+2 BLE nRF UART connection with a phone with an option to send strings longer than 20 bytes</br>
+3 Time zone corrected time with daylight savings from a NTP server via WIFI</br>
+4 RGBCW LED control on the MCU board</br>
+5 RTC for time keeping when off line</br>
+6 LDR analogue readings&nbsp;and control of display intensity</br>
+7 Storage of the settings in the ESP32-C3 SPIFSS Flash memor</br>
+8 Menu driven control of preferences with serial monitor, BLE and WIFI-html page</br>
+9 Four languages to display time</br>
+10 SK6812 RGBW /WS2812 RGB LED strip support to make a word clock</br>
+11 Analog clock.</br>
+12 OTA. Upgrade the software over the air without USB-cable</br> </span></p>
+
+
 This software is derived from the [ILI9341 + ESP32-C3 clock]( https://github.com/ednieuw/ESP32-C3-Clock-and-more) seen in the background.
 
 I used the installation as described here below: Arduino IDE Relative easy Quick Start. 
