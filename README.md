@@ -20,10 +20,20 @@ The software contains coding to use:</br>
 9 Analog and digital clock.</br>
 10 OTA. Upgrade the software over the air without USB-cable</br> </span></p>
 
-
 This software is derived from the [ILI9341 + ESP32-C3 clock]( https://github.com/ednieuw/ESP32-C3-Clock-and-more) seen in the background.
-
 https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/82f1b46f-4dc8-43d3-bf7c-c0fba49e676e
+
+A fast method to load the software in the watch OTA (Over The Air) can be used.  Instal the Arduino IDE as described in the point 1-4 below and install an OTA library in the IDE. 
+AsyncElegantOTA works fine. 
+Open the demo program in the example folder of AsyncElegantOTA and enter the WIFI details over the dots in const char* ssid = "........"; and const char* password = "........";. 
+Compile and upload the program in the watch.
+Find the IP-address of the watch in your router and enter this in a browser followed with /update.
+http://192.168.178.88/update
+
+
+
+ 
+
 
 <h1 align = "center">🌟LilyGO T-Watch V2020 V3🌟</h1></br>
 <h3>From LilyGo Github the next instructions:</h3>
