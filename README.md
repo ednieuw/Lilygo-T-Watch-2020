@@ -23,13 +23,20 @@ The software contains coding to use:</br>
 This software is derived from the [ILI9341 + ESP32-C3 clock]( https://github.com/ednieuw/ESP32-C3-Clock-and-more) seen in the background.
 https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/82f1b46f-4dc8-43d3-bf7c-c0fba49e676e
 
-A fast method to load the software in the watch OTA (Over The Air) can be used.  Instal the Arduino IDE as described in the point 1-4 below and install an OTA library in the IDE. 
-AsyncElegantOTA works fine. 
-Open the demo program in the example folder of AsyncElegantOTA and enter the WIFI details over the dots in const char* ssid = "........"; and const char* password = "........";. 
-Compile and upload the program in the watch.
-Find the IP-address of the watch in your router and enter this in a browser followed with /update.
-http://192.168.178.88/update
+A fast method to load the software in the watch OTA (Over The Air) can be used.  Instal the Arduino IDE as described in the point 1-4 below and install an OTA library in the IDE. </br>
+AsyncElegantOTA works fine. </br>
+Open the demo program in the example folder of AsyncElegantOTA and enter the WIFI details over the dots in const char* ssid = "........"; and const char* password = "........";. </br>
+Compile and upload the program in the watch.</br>
+Find the IP-address of the watch in your router and enter this in a browser followed with /update.</br>
+in my case: 192.168.178.88/update  </br>
+Select Firware and Choose File. Find and open the bin file: Liygo-WristWatchESP32-V011.ino.twatch.bin</br>
+Now enter in the browser the IP-address without /update. in my case: 192.168.178.88</br>
+The watch menu will open. </br>
+Enter the character a followed with your WIFI networkname.  aSSID</br>
+Enter the character b followed with your WIFI password.  aPassword</br>
+Send a @ to rest the watch and volila the watch is running on time.</br>
 
+The rest is reading the manual of my program for ths watch</br>
 
 
  
