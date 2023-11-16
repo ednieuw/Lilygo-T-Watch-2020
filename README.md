@@ -54,7 +54,14 @@ The rest is reading the manual of my program for ths watch</br>
    1. Download a zipfile from github using the "Download ZIP" button and install it using the IDE ("Sketch" -> "Include Library" -> "Add .ZIP Library...")
    2. Clone this git repository into your sketchbook/libraries folder. For more info, see https://www.arduino.cc/en/Guide/Libraries
 
-4. In the Arduino IDE Go to Tools -> Board --> ESP32  and search in the list 'TTGO T-watch'
+Install the library NTP Client from https://github.com/gmag11/ESPNtpClient or copy the library from the folder libraries in the ZIP file downloaden for this watch from my Github page.
+
+#include <NimBLEDevice.h>      // For BLE communication  https://github.com/h2zero/NimBLE-Arduino
+#include <AsyncTCP.h>          // Used for webpage   https://github.com/me-no-dev/ESPAsyncWebServer
+#include <ESPAsyncWebServer.h> // Used for webpage   https://github.com/me-no-dev/ESPAsyncWebServer
+AsyncElegantOTA
+
+5. In the Arduino IDE Go to Tools -> Board --> ESP32  and search in the list 'TTGO T-watch'
 ![image](https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/d0ffc660-1a1b-4799-8abd-a21b5881e2cd)
 
 
