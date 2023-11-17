@@ -1,4 +1,4 @@
-# Lilygo-WristWatch
+# Lilygo-WristWatch T-watch 2020 V3
 # Still under construction
 ![AllWatchesK](https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/9c859ab7-900d-4b10-8df6-623f4591e446)
 
