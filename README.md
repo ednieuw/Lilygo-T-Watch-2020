@@ -12,13 +12,12 @@ The software contains coding to use:</br>
 1 ST7789 colour display</br>
 2 BLE nRF UART connection with a phone with an option to send strings longer than 20 bytes</br>
 3 Time zone corrected time with daylight savings from a NTP server via WIFI</br>
-4 RGBCW LED control on the MCU board</br>
+4 Analog, word and digital clock.</br>
 5 RTC for time keeping when off line</br>
-6 Storage of the settings in the ESP32-C3 SPIFSS Flash memor</br>
+6 Storage of the settings in the ESP32-S3 SPIFSS Flash memor</br>
 7 Menu driven control of preferences with serial monitor, BLE and WIFI-html page</br>
 8 Four languages to display time</br>
-9 Analog and digital clock.</br>
-10 OTA. Upgrade the software over the air without USB-cable</br> </span></p>
+9 OTA. Upgrade the software over the air without USB-cable</br> </span></p>
 
 This software is derived from the [ILI9341 + ESP32-C3 clock]( https://github.com/ednieuw/ESP32-C3-Clock-and-more) seen in the background.
 https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/82f1b46f-4dc8-43d3-bf7c-c0fba49e676e
@@ -36,10 +35,7 @@ Enter the character a followed with your WIFI networkname.  aSSID</br>
 Enter the character b followed with your WIFI password.  aPassword</br>
 Send a @ to rest the watch and volila the watch is running on time.</br>
 
-The rest is reading the manual of my program for ths watch</br>
-
-
- 
+The rest is reading the manual for ths watch</br>
 
 
 <h1 align = "center">🌟LilyGO T-Watch V2020 V3🌟</h1></br>
@@ -51,15 +47,18 @@ The rest is reading the manual of my program for ths watch</br>
 2. Install `Arduino ESP32 2.0.9 or higher`. `Tools` -> `Board` -> `Boards Manager` and search ESP32
     ** I used 2.0.14. **
 3. Install [TTGO_TWatch_Library](https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library)
-   1. Download a zipfile from github using the "Download ZIP" button and install it using the IDE ("Sketch" -> "Include Library" -> "Add .ZIP Library...")
+   1. Download a zipfile from the LilyGo TTGO github page using the "Download ZIP" button and install it using the IDE ("Sketch" -> "Include Library" -> "Add .ZIP Library...")
    2. Clone this git repository into your sketchbook/libraries folder. For more info, see https://www.arduino.cc/en/Guide/Libraries
+</br>
+Install the library NTP Client from https://github.com/gmag11/ESPNtpClient or </br>
+</br>
+Following are Arduino libraries and can be found in the Arduino IDE library manager but also in the ZIP-file downloaded for this watch that contains all libraries needed to compile for the watch.</br>
+NimBLEDevice.h      
+AsyncTCP.h          
+ESPAsyncWebServer.h 
+AsyncElegantOTA.h
 
-Install the library NTP Client from https://github.com/gmag11/ESPNtpClient or copy the library from the folder libraries in the ZIP file downloaden for this watch from my Github page.
 
-#include <NimBLEDevice.h>      // For BLE communication  https://github.com/h2zero/NimBLE-Arduino
-#include <AsyncTCP.h>          // Used for webpage   https://github.com/me-no-dev/ESPAsyncWebServer
-#include <ESPAsyncWebServer.h> // Used for webpage   https://github.com/me-no-dev/ESPAsyncWebServer
-AsyncElegantOTA
 
 5. In the Arduino IDE Go to Tools -> Board --> ESP32  and search in the list 'TTGO T-watch'
 ![image](https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/d0ffc660-1a1b-4799-8abd-a21b5881e2cd)
