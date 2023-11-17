@@ -1,8 +1,9 @@
 # Lilygo-WristWatch
 # Still under construction
+![AllWatchesK](https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/9c859ab7-900d-4b10-8df6-623f4591e446)
 
 A wrist watch that displays the time in words in Dutch, English, French and 
-German or as an analogue or digital clock.<br />
+German,as an analogue or digital clock.<br />
 The clock receives time via NTP from the internet. <br />
 Settings can be controlled via a webpage, PC and Bluetooth LE.<br />
 Also info here: <a href="https://ednieuw.home.xs4all.nl/Woordklok/ESP32C3AndMore/ESP32C3ClockAndMoreV.html">  
