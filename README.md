@@ -18,7 +18,7 @@ The software contains coding to use:</br>
 6 Storage of the settings in the ESP32-S3 SPIFSS Flash memor</br>
 7 Menu driven control of preferences with serial monitor, BLE and WIFI-html page</br>
 8 Four languages to display time</br>
-9 OTA. Upgrade the software over the air without USB-cable</br> </span></p>
+9 OTA. Upgrade the software over the air without USB-cable</br>
 10 Swipe or touch the display to switch between options
 
 This software is derived from the [ILI9341 + ESP32-C3 clock](https://github.com/ednieuw/ESP32-C3-Clock-and-more).
