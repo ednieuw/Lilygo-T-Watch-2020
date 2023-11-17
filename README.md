@@ -1,4 +1,5 @@
 # Lilygo-WristWatch
+# Still under construction
 
 A wrist watch that displays the time in words in Dutch, English, French and 
 German or as an analogue or digital clock.<br />
@@ -18,8 +19,9 @@ The software contains coding to use:</br>
 7 Menu driven control of preferences with serial monitor, BLE and WIFI-html page</br>
 8 Four languages to display time</br>
 9 OTA. Upgrade the software over the air without USB-cable</br> </span></p>
+10 Swipe or touch the display to switch between options
 
-This software is derived from the [ILI9341 + ESP32-C3 clock]( https://github.com/ednieuw/ESP32-C3-Clock-and-more) seen in the background.
+This software is derived from the [ILI9341 + ESP32-C3 clock](https://github.com/ednieuw/ESP32-C3-Clock-and-more).
 https://github.com/ednieuw/Lilygo-WristWatch/assets/12166816/82f1b46f-4dc8-43d3-bf7c-c0fba49e676e
 
 A fast method to load the software in the watch OTA (Over The Air) can be used.  Instal the Arduino IDE as described in the point 1-4 below and install an OTA library in the IDE. </br>
@@ -33,13 +35,13 @@ Now enter in the browser the IP-address without /update. in my case: 192.168.178
 The watch menu will open. </br>
 Enter the character a followed with your WIFI networkname.  aSSID</br>
 Enter the character b followed with your WIFI password.  aPassword</br>
-Send a @ to rest the watch and volila the watch is running on time.</br>
+Send a @ to rest the watch and voila the watch is running on time.</br>
 
-The rest is reading the manual for ths watch</br>
+The rest is reading the manual for this watch</br>
 
 
 <h1 align = "center">🌟LilyGO T-Watch V2020 V3🌟</h1></br>
-<h3>From LilyGo Github the next instructions:</h3>
+<h3>From [LillyGo T-watch 2020 V3]( https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library) the next instructions:</h3>
 
 ## 1️⃣ Arduino IDE Quick Start
 
