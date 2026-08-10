@@ -6,7 +6,7 @@ A wrist watch that displays the time in words in Dutch, English, French and
 German,as an analogue or digital clock.<br />
 The clock receives time via NTP from the internet. <br />
 Settings can be controlled via a webpage, PC and Bluetooth LE.<br />
-Also info here: <a href="https://ednieuw.home.xs4all.nl/Woordklok/ESP32C3AndMore/ESP32C3ClockAndMoreV.html">  
+Also info here: <a href="https://ednieuw.com/Woordklok/ESP32C3AndMore/ESP32C3ClockAndMoreV.html">  
 On my home page for the latest info</a>.	
 <p>The clock is built with a [LillyGo T-watch 2020 V3]( https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library) that runs on a 16 Mb ESP32-S3.</br>
 The software is written with the Arduino IDE 1.8.19.</br>
